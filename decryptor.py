@@ -63,3 +63,4 @@ while True:  # while loop
     print(Fore.GREEN + "\t\t\t[Decryption Successful...................]")
 
     # call try-again function
+    try_again()
