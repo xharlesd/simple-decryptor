@@ -48,8 +48,10 @@ print("\033[0;34m" + "\033[1m-" * 140 + '\033[0m')
 # insert time delay
 time.sleep(1.5)
 
-# while loop
+while True:  # while loop
     # ask user to input the encrypted text
+    encrypted_string = input(Fore.CYAN + "\033[1m\n\t\t\tENCRYPTED TEXT: \033[0m" + Fore.YELLOW)
+    
     # replace each character ( '* to a', '& to e', '# to i', '+ to o', '! to u' )
     # display decrypted text
 
