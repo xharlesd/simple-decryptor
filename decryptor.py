@@ -34,6 +34,10 @@ def try_again():
 
 
 # Use pyfiglet formatting to "Lab. Exercise No. 1"
+print("")
+lab = pyfiglet.figlet_format("LAB EXERCISE # 1", font = "banner3-d", width = 141, justify = "center")
+print(Style.BRIGHT + Fore.CYAN + lab)
+
 # format introductory message
 
 # insert time delay
