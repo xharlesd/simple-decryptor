@@ -3,6 +3,10 @@
 
 
 # import modules
+import pyfiglet
+import colorama
+from colorama import Fore, Style
+import time
 
 # Create a try-again function to use the program again if the user wants to 
     # the program will run again if the user inputted YES
