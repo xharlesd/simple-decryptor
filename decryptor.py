@@ -46,6 +46,7 @@ print( "\033[1m" + intro_centered)
 print("\033[0;34m" + "\033[1m-" * 140 + '\033[0m')
 
 # insert time delay
+time.sleep(1.5)
 
 # while loop
     # ask user to input the encrypted text
