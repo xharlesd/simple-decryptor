@@ -57,7 +57,9 @@ while True:  # while loop
     time.sleep(0.5)
     print(Fore.GREEN + "\t\t\t[Decrypting..............................]")
     time.sleep(2.5)
-    
+
     # display decrypted text
+    print(Fore.CYAN + "\033[1m\n\t\t\tDECRYPTED TEXT: \033[0m" + Fore.YELLOW + decrypted_string)
+    print(Fore.GREEN + "\t\t\t[Decryption Successful...................]")
 
     # call try-again function
