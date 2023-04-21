@@ -39,6 +39,11 @@ lab = pyfiglet.figlet_format("LAB EXERCISE # 1", font = "banner3-d", width = 141
 print(Style.BRIGHT + Fore.CYAN + lab)
 
 # format introductory message
+print("\033[0;34m" + "\033[1m-" * 140 + '\033[0m')
+intro = "THIS DECRYPTION PROGRAM WILL ACCEPT A STRING AS ENCRYPTED TEXT AND THEN THE PROGRAM WILL DECRYPT IT." 
+intro_centered = intro.center(140)
+print( "\033[1m" + intro_centered) 
+print("\033[0;34m" + "\033[1m-" * 140 + '\033[0m')
 
 # insert time delay
 
