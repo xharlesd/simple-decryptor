@@ -51,8 +51,13 @@ time.sleep(1.5)
 while True:  # while loop
     # ask user to input the encrypted text
     encrypted_string = input(Fore.CYAN + "\033[1m\n\t\t\tENCRYPTED TEXT: \033[0m" + Fore.YELLOW)
-    
+
     # replace each character ( '* to a', '& to e', '# to i', '+ to o', '! to u' )
+    decrypted_string = encrypted_string.replace('*', 'a').replace('&', 'e').replace('#', 'i').replace('+', 'o').replace('!', 'u')
+    time.sleep(0.5)
+    print(Fore.GREEN + "\t\t\t[Decrypting..............................]")
+    time.sleep(2.5)
+    
     # display decrypted text
 
     # call try-again function
